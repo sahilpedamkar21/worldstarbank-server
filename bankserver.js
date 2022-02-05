@@ -73,7 +73,7 @@ app.post('/recording', (req,res)=>{
 	.then(()=>{})
 })
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
 
 /*app.put('/sending', (req,res)=>{
 db('customers').where('id','=',req.body.s)
