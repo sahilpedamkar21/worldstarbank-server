@@ -12,7 +12,7 @@ const db= knex({
         connection: {
           host : '127.0.0.1', //localhost
           user : 'postgres', //add your user name for the database here
-          password : 'Sa1@hil1', //add your correct password in here
+          password : '', //add your correct password in here
           database : 'bankdata' //add your database name you created here
         }
 });
